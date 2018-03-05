@@ -11,6 +11,7 @@ public:
             x /= 10;
         }
         int res = sum;
+        //或者 if(res > INT_MIN && res < INT_MAX)
         if(res == sum)  return res;
         else    return 0;
     }
